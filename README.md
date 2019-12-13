@@ -7,13 +7,12 @@ You can use this repo as a starting point when building react components testabl
 The following steps have already been done in this repo. They are listed here for reference:
 
 1. install nwb, create a nwb react-component project and install additional dependencies
-npm install -g nwb
-nwb new react-component nwb-react-testing-library
-npm install --save-dev @testing-library/react @testing-library/jest-dom
-npm install --save-dev jest babel-jest babel-polyfill @babel/preset-env @babel/preset-react
+    npm install -g nwb
+    nwb new react-component nwb-react-testing-library
+    npm install --save-dev @testing-library/react @testing-library/jest-dom
+    npm install --save-dev jest babel-jest babel-polyfill @babel/preset-env @babel/preset-react
 
-2. create and update three new config files
-jest.config.js, jest.transform.js and react-testing-library.setup.js
+2. create and update three new config files: jest.config.js, jest.transform.js and react-testing-library.setup.js
 
 3. update test scripts in package.json
     "test": "jest",
