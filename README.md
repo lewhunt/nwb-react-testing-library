@@ -39,4 +39,4 @@ Command | Description |
 `npm run build` | prepare for publishing to npm
 `npm run clean` | delete built resources
 
-The initial project is set up so you can successfully run each of these commands and get some meaningful output, albeit for a component which does nothing more than render a welcome message. Change the component and tests acordingly. Then follow the nwb documentation to publish the component.
+The initial project is set up so you can successfully run each of these commands and get some meaningful output, albeit for a component which does nothing more than render a welcome message. Change the component and tests acordingly. Then follow the nwb documentation to publish the component on npm.
