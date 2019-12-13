@@ -1,5 +1,5 @@
 # nwb-react-testing-library
-This is a sample nwb react-component project configured for Jest and react-testing-library. 
+This is a sample [nwb](https://github.com/insin/nwb) [react-component project](https://github.com/insin/nwb/blob/master/docs/guides/ReactComponents.md#developing-react-components-and-libraries-with-nwb) configured for testing with Jest and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro) 
 
 You can use this repo as a starting point when building react components testable with Jest and react-testing-library (rather than nwb's default testing setup of Karma/Mocha and PhantomJS).  
 
