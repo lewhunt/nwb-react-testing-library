@@ -4,7 +4,7 @@ This is a sample [nwb](https://github.com/insin/nwb) [react-component project](h
 You can use this repo as a starting point when building react components testable with Jest and react-testing-library (rather than nwb's default testing setup of Karma/Mocha and PhantomJS).  
 
 ## Changes made to nwb in this repo
-The following steps have already been done in this repo. They are listed here for reference:
+The following steps for testing configuration have already been made in this repo. They are listed here for reference:
 
 1. install nwb, create a nwb react-component project and install additional dependencies
 ```
@@ -26,5 +26,17 @@ The following steps have already been done in this repo. They are listed here fo
 
 4. rename and update the sample test file index.test.js
 
-5. npm run test
+## Developing with this repo
+`package.json` is configured with `"scripts"` we can use with `npm run` while developing the project.
 
+Command | Description |
+--- | ---
+`npm install` | First run this once after downloading or cloning this repo (to download node_modules dependencies) 
+`npm start` | start a development server for the demo app
+`npm test` | run (react-testing-library) tests
+`npm run test:coverage` | run tests and produce a code coverage report in `coverage/`
+`npm run test:watch` | start a test server and re-run tests on every change
+`npm run build` | prepare for publishing to npm
+`npm run clean` | delete built resources
+
+The initial project is set up so you can successfully run each of these commands and get some meaningful output, albeit for a component which does nothing more than render a welcome message.
