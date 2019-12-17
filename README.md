@@ -32,7 +32,6 @@ Command | Description |
 `npm install` | First run this once after downloading or cloning this repo (to download node_modules dependencies) 
 `npm start` | start a development server for the demo app
 `npm test` | run (react-testing-library) tests
-`npm run test:coverage` | run tests and produce a code coverage report in `coverage/`
 `npm run test:watch` | start a test server and re-run tests on every change
 `npm run build` | prepare for publishing to npm
 `npm run clean` | delete built resources
