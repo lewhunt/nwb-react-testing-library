@@ -11,7 +11,7 @@ The following config changes have already been made in this repo. They are liste
     npm install -g nwb
     nwb new react-component nwb-react-testing-library
     npm install --save-dev @testing-library/react @testing-library/jest-dom
-    npm install --save-dev jest babel-jest babel-polyfill @babel/preset-env @babel/preset-react
+    npm install --save-dev jest babel-jest babel-polyfill @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties
  ```
 
 2. create and update three new config files: jest.config.js, jest.transform.js and react-testing-library.setup.js
