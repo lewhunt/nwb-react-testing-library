@@ -19,9 +19,7 @@ The following config changes have already been made in this repo. They are liste
 3. update test scripts in package.json
 ```
     "test": "jest",
-    "test:watch": "jest --watch --no-cache",
-    "test:coverage": "jest --coverage",
-    "open:coverage": "open ./coverage/lcov-report/index.html"
+    "test:watch": "jest --watch --no-cache"
  ```
 
 4. rename and update the sample test file index.test.js
